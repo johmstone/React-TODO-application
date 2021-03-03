@@ -11,3 +11,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.cardtodos {
+    width: 25rem !important;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;    
+}
+
+.btn {
+    visibility: hidden;
+}
+
+.list-group-item:hover :nth-child(1) {
+    visibility: visible !important; 
+}
+
+
+
